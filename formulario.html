@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Avalie-nos!</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                Pesquisa com os clientes
+            </h1>
+        </header>
+
+        <main>
+            <form action="respostas.html" method="=POST"> 
+                <section>
+                    <h3>
+                        Identifique-se
+                    </h3>
+
+                    <p>
+                        Para contribuir de maneira precisa para a pesquisa, é necessário fornecer seus dados, com o propósito de comprovar sua identidade.
+                    </p>
+                </section>
+
+                <section>
+                        <p>
+                            <label for="nome">Nome:</label>
+                            <input type="text" placeholder="Seu nome" id="nome"/>
+                        </p>
+
+                        <p>
+                            <label for="e-mail">E-mail:</label>
+                            <input type="email" placeholder="Seu e-mail" id="e-mail"/>
+                        </p>
+
+                        <p>
+                            <label for="cel">Nome:</label>
+                            <input type="number" placeholder="Seu telefone" id="cel"/>
+                        </p>
+
+                </section>
+                
+                <section>
+                    <h3>
+                        Agora, responda as perguntas abaixo.
+                    </h3>
+
+                    <p>
+                        1- Com qual frequência você utiliza nossos produtos<strong>?</strong>
+                        <input type="radio" id="11" name="1"/>
+                        <label for="11">Raramente</label>
+
+                        <input type="radio" id="12" name="1"/>
+                        <label for="12">As vezes</label>
+
+                        <input type="radio" id="13" name="1"/>
+                        <label for="13">Moderado</label>
+
+                        <input type="radio" id="14" name="1"/>
+                        <label for="14">Quase sempre</label>
+
+                        <input type="radio" id="15" name="1"/>
+                        <label for="15">Sempre</label>
+                    </p>
+                </section>
+
+                <section>
+                    <p>
+                        2- Você recomendaria nosso produto para alguém?<strong>?</strong>
+                        <input type="radio" id="21" name="2"/>
+                        <label for="21">Claramente não</label>
+
+                        <input type="radio" id="22" name="2"/>
+                        <label for="22">Não</label>
+
+                        <input type="radio" id="23" name="2"/>
+                        <label for="23">Talvez</label>
+
+                        <input type="radio" id="24" name="2"/>
+                        <label for="24">Sim</label>
+
+                        <input type="radio" id="25" name="2"/>
+                        <label for="25">Com certeza</label>
+                    </p>
+                </section>
+
+                <section>
+                    <p>
+                        3- Como você avalia o nosso atendimento<strong>?</strong>
+                        <input type="radio" id="31" name="3"/>
+                        <label for="31">Péssimo</label>
+
+                        <input type="radio" id="32" name="3"/>
+                        <label for="32">Ruim</label>
+
+                        <input type="radio" id="33" name="3"/>
+                        <label for="33">Pode melhorar</label>
+
+                        <input type="radio" id="34" name="3"/>
+                        <label for="34">Bom</label>
+
+                        <input type="radio" id="35" name="3"/>
+                        <label for="35">Ótimo</label>
+                    </p>
+                </section>
+
+                <section>
+                    <p>
+                        De qual estado você é?
+                        <select>
+                            <option>AC - Acre</option>
+                            <option>AL - Alagoas</option>
+                            <option>AP - Amapá</option>
+                            <option>AM - Amazonas</option>
+                            <option>BA - Bahia</option>
+                            <option>CE - Ceará</option>
+                            <option>ES - Espírito Santo</option>
+                            <option>GO - Goiás</option>
+                            <option>MA - Maranhão</option>
+                            <option>MT - Mato Grosso</option>
+                            <option>MS - Mato Grosso do Sul</option>
+                            <option>MG - Minas Gerais</option>
+                            <option>PA - Pará</option>
+                            <option>PB - Paraíba</option>
+                            <option>PR - Paraná</option>
+                            <option>PE - Pernambuco</option>
+                            <option>PI - Piauí</option>
+                            <option>RJ - Rio de Janeiro</option>
+                            <option>RN - Rio Grande do Norte</option>
+                            <option>RS - Rio Grande do Sul</option>
+                            <option>RO - Rondônia</option>
+                            <option>RR - Roraima</option>
+                            <option>SC - Santa Catarina</option>
+                            <option>SP - São Paulo</option>
+                            <option>SE - Sergipe</option>
+                            <option>TO - Tocantins</option>
+                            <option>DF - Distrito Federal</option>
+                        </select>
+                    </p>
+                </section>
+
+                <section>
+                    <p>
+                        <input type="checkbox" id="permissao"/>
+                        <label for="permissao">Você autoriza o compartilhamento das respostas fornecidas?</label>
+                    </p>
+
+                    <p>
+                    <input type="submit" value="Enviar respostas"/>
+                    </p>
+                </section>
+            </form>
+        </main>
+    </body>
+</html>
