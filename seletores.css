@@ -1,0 +1,28 @@
+/* Questão - 1 */
+a {
+    color:red
+}
+
+a:hover {
+    color:lime
+}
+/* Questão - 2 */
+p {
+    font-family: Arial ;
+}
+
+h1 + p {
+    font-weight: bold ;
+}
+/* Questão - 3 */
+.destaque {
+    font-family: Arial ;
+}
+
+p.destaque {
+    font-weight: bold;
+}
+
+strong.destaque {
+    color:red
+}
