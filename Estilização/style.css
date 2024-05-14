@@ -1,0 +1,40 @@
+/* Questão 1 */
+html {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 1em;
+}
+
+/* Questão 2 */
+h1, h2, h3, h4 ,h5 ,h6 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+/* Questão 3 */
+.summary {
+    text-align: center;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+/* Questão 4 */
+abbr {
+    font-variant: small-caps;
+}
