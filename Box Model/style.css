@@ -1,0 +1,44 @@
+/* Questão 1 */
+.page-wrapper {
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+#zen-intro {
+    height: 550px;   
+}
+
+#design-archives {
+    display: none;
+}
+/* Questão 2 */
+#zen-intro header h1, h2 {
+    background-color: #011526;
+    color: #C9DFF2;
+    display:inline-block
+}
+
+#zen-intro header h1 {
+    margin-inline: 1em;
+}
+/* Questão 3 */
+aside ul {
+    list-style-type: none;   
+}
+aside ul li {
+    margin: 1em;
+    text-align: center;
+}
+/* Questão 4 */
+footer {
+    margin: 4%;
+    
+}
+
+footer a {
+    border: solid;
+    border-width: 2px;
+    padding-inline: 0.5em;
+    display: inline-block;
+}
