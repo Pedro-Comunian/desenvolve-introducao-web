@@ -1,0 +1,38 @@
+/* Media Query */
+
+@media screen and (max-width: 768px) {
+    .design-selection {
+        position: static;
+        width: 100%;
+    }
+    
+    .explanation {
+        border-right: none;
+        width: 100%;
+
+    }
+    
+    #zen-intro {
+        height: auto;
+
+    }
+
+    .participation {
+        flex-direction: column;
+    }
+
+    p {
+        text-indent: 0;
+    }
+}
+
+@media print {
+    html {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #zen-intro header {
+        background-color: #C9DFF2;
+        color: #011526;
+    }
+}
