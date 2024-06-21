@@ -1,0 +1,23 @@
+/* Pseudo Classes */
+a {
+    color: #A744EB;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #5c2481;
+}
+
+.main p:first-of-type::first-letter {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+
+.design-selection li {
+    border-top: #011526 solid 1px;
+}
+
+.design-selection li:last-of-type {
+    border-bottom: #011526 solid 1px;
+}
